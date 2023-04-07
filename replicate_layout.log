@@ -1,0 +1,96 @@
+05-22 21:54:12 replicate_layout.action_replicate_layout 305:Plugin executed on: 'darwin'
+05-22 21:54:12 replicate_layout.action_replicate_layout 306:Plugin executed with python version: '2.7.13 (default, Mar  6 2019, 04:43:15) \n[GCC 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1)]'
+05-22 21:54:12 replicate_layout.action_replicate_layout 307:KiCad build version: Unknown
+05-22 21:54:12 replicate_layout.action_replicate_layout 308:Replicate layout plugin version: 64 started
+05-22 21:54:12 replicate_layout.action_replicate_layout 340:Preparing replicator with Q2 as a reference
+05-22 21:54:12 replicate_layout.replicatelayout 211:getting project hierarchy from schematics
+05-22 21:54:12 replicate_layout.replicatelayout 213:Project hierarchy looks like:
+{'60A23B5C': ['LED_CONTROL', u'/Users/paul/Google Drive/elektronik/kicad/privat/styro_control/NMOS_DRIVER.sch'], '60BBFAA0': ['sheet60BBFA9B', u'/Users/paul/Google Drive/elektronik/kicad/privat/styro_control/NMOS_DRIVER.sch'], '60A11146': ['FAN_CONTROL', u'/Users/paul/Google Drive/elektronik/kicad/privat/styro_control/NMOS_DRIVER.sch'], '60A62E19': ['buck', u'/Users/paul/Google Drive/elektronik/kicad/privat/styro_control/BUCK_MC34063_STEP_DOWN_3.3_v1_1.sch'], '60A23A75': ['HEAT_CONTROL', u'/Users/paul/Google Drive/elektronik/kicad/privat/styro_control/NMOS_DRIVER.sch']}
+05-22 21:54:12 replicate_layout.replicatelayout 221:getting a list of all footprints on board
+05-22 21:54:12 replicate_layout.action_replicate_layout 367:source anchor footprint is u'Q2'
+Located on:['FAN_CONTROL']
+With filenames:[u'NMOS_DRIVER.sch']
+With sheet_id:['FAN_CONTROL']
+05-22 21:54:12 replicate_layout.action_replicate_layout 371:Corresponding footprints are 
+[(u'Q8', ['sheet60BBFA9B']), (u'Q6', ['LED_CONTROL']), (u'Q4', ['HEAT_CONTROL']), (u'Q2', ['FAN_CONTROL'])]
+05-22 21:54:12 replicate_layout.action_replicate_layout 384:Showing dialog
+05-22 21:54:12 replicate_layout.action_replicate_layout 388:Pcbnew position: wx.Point(39, 84)
+05-22 21:54:12 replicate_layout.action_replicate_layout 394:Display 0: wx.Rect(0, 0, 1680, 1050)
+05-22 21:54:12 replicate_layout.action_replicate_layout 394:Display 1: wx.Rect(1680, 0, 1680, 1050)
+05-22 21:54:12 replicate_layout.action_replicate_layout 398:Toolbar position: wx.Point(1517, 178)
+05-22 21:54:12 replicate_layout.action_replicate_layout 405:Dialog position: wx.Point(1204, 178)
+05-22 21:54:16 replicate_layout.replicatelayout 245:construcing a list of sheets suitable for replication on level:'FAN_CONTROL', file:u'NMOS_DRIVER.sch'
+05-22 21:54:16 replicate_layout.replicatelayout 252:Source sheet path up to the level:['FAN_CONTROL']
+05-22 21:54:16 replicate_layout.replicatelayout 256:Footprints on the sheets:
+[u'Q8', u'Q6', u'Q4', u'Q2']
+05-22 21:54:16 replicate_layout.replicatelayout 259:Footprints raw sheet ids:
+[u'/60BBFAA0/60A13A76', u'/60A23B5C/60A13A76', u'/60A23A75/60A13A76', u'/60A11146/60A13A76']
+05-22 21:54:16 replicate_layout.replicatelayout 275:All sheets to replicate:
+[['sheet60BBFA9B'], ['LED_CONTROL'], ['HEAT_CONTROL'], ['FAN_CONTROL']]
+05-22 21:54:16 replicate_layout.replicatelayout 280:All sheets to replicate sorted:
+[['FAN_CONTROL'], ['HEAT_CONTROL'], ['LED_CONTROL'], ['sheet60BBFA9B']]
+05-22 21:54:16 replicate_layout.replicatelayout 286:All sheets to replicate sorted and without source sheet:
+[['HEAT_CONTROL'], ['LED_CONTROL'], ['sheet60BBFA9B']]
+05-22 21:54:30 replicate_layout.replicatelayout 245:construcing a list of sheets suitable for replication on level:'FAN_CONTROL', file:u'NMOS_DRIVER.sch'
+05-22 21:54:30 replicate_layout.replicatelayout 252:Source sheet path up to the level:['FAN_CONTROL']
+05-22 21:54:30 replicate_layout.replicatelayout 256:Footprints on the sheets:
+[u'Q8', u'Q6', u'Q4', u'Q2']
+05-22 21:54:30 replicate_layout.replicatelayout 259:Footprints raw sheet ids:
+[u'/60BBFAA0/60A13A76', u'/60A23B5C/60A13A76', u'/60A23A75/60A13A76', u'/60A11146/60A13A76']
+05-22 21:54:30 replicate_layout.replicatelayout 275:All sheets to replicate:
+[['sheet60BBFA9B'], ['LED_CONTROL'], ['HEAT_CONTROL'], ['FAN_CONTROL']]
+05-22 21:54:30 replicate_layout.replicatelayout 280:All sheets to replicate sorted:
+[['FAN_CONTROL'], ['HEAT_CONTROL'], ['LED_CONTROL'], ['sheet60BBFA9B']]
+05-22 21:54:30 replicate_layout.replicatelayout 286:All sheets to replicate sorted and without source sheet:
+[['HEAT_CONTROL'], ['LED_CONTROL'], ['sheet60BBFA9B']]
+05-22 21:54:30 replicate_layout.action_replicate_layout 179:Replicating layout
+05-22 21:54:30 replicate_layout.replicatelayout 986:Starting replication of sheets: [['HEAT_CONTROL'], ['LED_CONTROL'], ['sheet60BBFA9B']]
+on level: ['FAN_CONTROL']
+with tracks=True, zone=True, text=True, containing=True, remove=False, locked=False
+05-22 21:54:30 root 261:updating GUI message: 'Preparing for replication'
+05-22 21:54:30 root 266:updating GUI with: 0
+05-22 21:54:30 replicate_layout.replicatelayout 552:Getting the list of source footprints
+05-22 21:54:30 root 266:updating GUI with: 0
+05-22 21:54:30 replicate_layout.replicatelayout 556:Getting the list of all the remaining footprints
+05-22 21:54:30 replicate_layout.replicatelayout 560:Getting nets local to source footprints
+05-22 21:54:30 replicate_layout.replicatelayout 564:Getting source bounding box
+05-22 21:54:30 root 266:updating GUI with: 37
+05-22 21:54:30 replicate_layout.replicatelayout 568:Getting source tracks
+05-22 21:54:30 replicate_layout.replicatelayout 572:Getting source zones
+05-22 21:54:30 replicate_layout.replicatelayout 576:Getting source text items
+05-22 21:54:30 replicate_layout.replicatelayout 580:Getting source text items
+05-22 21:54:30 root 261:updating GUI message: 'Replicating footprints'
+05-22 21:54:30 replicate_layout.replicatelayout 586:Replicating footprints
+05-22 21:54:30 root 266:updating GUI with: 0
+05-22 21:54:30 replicate_layout.replicatelayout 592:Replicating footprints on sheet ['HEAT_CONTROL']
+05-22 21:54:30 root 266:updating GUI with: 33
+05-22 21:54:30 replicate_layout.replicatelayout 592:Replicating footprints on sheet ['LED_CONTROL']
+05-22 21:54:30 root 266:updating GUI with: 66
+05-22 21:54:30 replicate_layout.replicatelayout 592:Replicating footprints on sheet ['sheet60BBFA9B']
+05-22 21:54:30 root 266:updating GUI with: 100
+05-22 21:54:30 root 261:updating GUI message: 'Replicating tracks'
+05-22 21:54:30 replicate_layout.replicatelayout 712:Replicating tracks
+05-22 21:54:30 root 266:updating GUI with: 0
+05-22 21:54:30 replicate_layout.replicatelayout 718:Replicating tracks on sheet ['HEAT_CONTROL']
+05-22 21:54:30 replicate_layout.replicatelayout 718:Replicating tracks on sheet ['LED_CONTROL']
+05-22 21:54:30 root 266:updating GUI with: 45
+05-22 21:54:30 replicate_layout.replicatelayout 718:Replicating tracks on sheet ['sheet60BBFA9B']
+05-22 21:54:30 root 261:updating GUI message: 'Replicating zones'
+05-22 21:54:30 replicate_layout.replicatelayout 763:Replicating zones
+05-22 21:54:30 root 266:updating GUI with: 0
+05-22 21:54:30 replicate_layout.replicatelayout 770:Replicating zones on sheet ['HEAT_CONTROL']
+05-22 21:54:30 replicate_layout.replicatelayout 770:Replicating zones on sheet ['LED_CONTROL']
+05-22 21:54:30 root 266:updating GUI with: 66
+05-22 21:54:30 replicate_layout.replicatelayout 770:Replicating zones on sheet ['sheet60BBFA9B']
+05-22 21:54:30 root 261:updating GUI message: 'Replicating text'
+05-22 21:54:30 replicate_layout.replicatelayout 829:Replicating text
+05-22 21:54:30 replicate_layout.replicatelayout 836:Replicating text on sheet ['HEAT_CONTROL']
+05-22 21:54:30 replicate_layout.replicatelayout 836:Replicating text on sheet ['LED_CONTROL']
+05-22 21:54:30 replicate_layout.replicatelayout 836:Replicating text on sheet ['sheet60BBFA9B']
+05-22 21:54:30 root 261:updating GUI message: 'Replicating drawings'
+05-22 21:54:30 replicate_layout.replicatelayout 860:Replicating drawings
+05-22 21:54:30 root 266:updating GUI with: 0
+05-22 21:54:30 replicate_layout.replicatelayout 866:Replicating drawings on sheet ['HEAT_CONTROL']
+05-22 21:54:30 replicate_layout.replicatelayout 866:Replicating drawings on sheet ['LED_CONTROL']
+05-22 21:54:30 replicate_layout.replicatelayout 866:Replicating drawings on sheet ['sheet60BBFA9B']
+05-22 21:54:30 replicate_layout.action_replicate_layout 201:Replication complete
