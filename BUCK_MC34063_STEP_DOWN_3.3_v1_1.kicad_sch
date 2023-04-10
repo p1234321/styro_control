@@ -3215,7 +3215,7 @@
     (uuid 00000000-0000-0000-0000-00005e783a35)
     (property "Reference" "R32" (id 0) (at 169.0878 82.55 90))
     (property "Value" "0R18" (id 1) (at 166.7764 82.55 90))
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (id 2) (at 162.052 82.55 90)
+    (property "Footprint" "" (id 2) (at 162.052 82.55 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 163.83 82.55 0)
